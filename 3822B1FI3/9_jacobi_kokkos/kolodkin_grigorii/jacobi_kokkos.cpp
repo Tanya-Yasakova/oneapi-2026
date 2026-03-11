@@ -68,8 +68,7 @@ std::vector<float> JacobiKokkos(
         result[i] = X_final(i);
     }
 
-    Kokkos::finalize();
-
     return result;
 }
+
 
