@@ -1,8 +1,1 @@
-Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
-  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
-  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
-  For unit testing set OMP_PROC_BIND=false
-
-terminate called after throwing an instance of 'std::runtime_error'
-  what():  There was a synchronous SYCL error:
-Native API failed. Native API returns: 40 (UR_RESULT_ERROR_OUT_OF_RESOURCES)
+Incorrect results, test input_128.bin, difference 0.001549350712506553

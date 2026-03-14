@@ -590,7 +590,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|chistov_alexey|0.3202|2|
 |3822B1FI1|beskhmelnova_kseniya|0.3214|1|
 |3822B1FI3|kolodkin_grigorii|0.3787|1|
-|3822B1FI1|solovev_alexey|RUN FAILED|-|
+|3822B1FI1|solovev_alexey|TEST FAILED|-|
 
 # Tasks Done
 ## 3822B1FI1
