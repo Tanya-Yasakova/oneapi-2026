@@ -1,8 +1,5 @@
-/home/crazyproger/sandbox/oneapi-2026/3822B1FI1/9_jacobi_kokkos/shulpin_ilya/jacobi_kokkos.cpp:65:9: error: no member named 'swap' in namespace 'Kokkos'; did you mean 'std::swap'?
-   65 |         Kokkos::swap(x_curr, x_next);
-      |         ^~~~~~~~~~~~
-      |         std::swap
-/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/move.h:196:5: note: 'std::swap' declared here
-  196 |     swap(_Tp& __a, _Tp& __b)
-      |     ^
-1 error generated.
+/usr/bin/ld: /tmp/icpx-35e63b7198/main-162725.o: in function `Run(int)':
+main.cpp:(.text+0x2d0): undefined reference to `JacobiKokkos(std::vector<float, std::allocator<float> > const&, std::vector<float, std::allocator<float> > const&, float)'
+/usr/bin/ld: /tmp/icpx-35e63b7198/main-162725.o: in function `main':
+main.cpp:(.text+0xb27): undefined reference to `JacobiKokkos(std::vector<float, std::allocator<float> > const&, std::vector<float, std::allocator<float> > const&, float)'
+icpx: error: linker command failed with exit code 1 (use -v to see invocation)
